@@ -1,0 +1,36 @@
+CSS Media Queries
+Apple iPhone 12 mini Media Queries (In terms of Mobile only)
+@media only screen and (min-width: 360px) and (max-width: 767px) { /* Your Styles... */ }
+
+Apple iPhone 12 mini Min-Width Media Queries
+@media only screen and (min-width: 360px) { /* Your Styles... */ }
+
+Apple iPhone 12 mini Min-Height Media Queries
+@media only screen and (min-height: 780px) { /* Your Styles... */ }
+
+Apple iPhone 12 mini Landscape Media Queries
+@media only screen and (min-width: 780px) and (orientation: landscape) { /* Your Styles... */ }
+
+Apple iPhone 12 mini Portrait Media Queries
+@media only screen and (min-width: 360px) and (orientation: portrait) { /* Your Styles... */ }
+
+Apple iPhone 12 mini Retina Media Queries
+@media
+  only screen and (-webkit-min-device-pixel-ratio: 3),
+  only screen and (   min--moz-device-pixel-ratio: 3),
+  only screen and (     -o-min-device-pixel-ratio: 3/1),
+  only screen and (        min-device-pixel-ratio: 3),
+  only screen and (                min-resolution: 476dpi),
+  only screen and (                min-resolution: 3dppx) { 
+    /* Retina styles here */
+}
+
+
+
+
+
+/* FTP */
+Nombre de usuario de FTP: DesarrolloWeb@jmmultisistemas.com
+Servidor FTP: ftp.jmmultisistemas.com
+Puerto FTPS explícito de FTP &:  21
+Contraseña: Y6Io@thUmte#

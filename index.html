@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JM MULTISISTEMAS</title>
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/glider.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <link type="image/png" href="Imagenes/Logo_32x32.webp" rel="shortcut icon">
+    <meta name="description" content="Compra en línea de manera fácil lo último en tecnología. Celulares, Computadores, Impresoras, Accesorios, Licencias y mucho más. 
+    ¿No sabes cual es el ideal para ti? Asesórate con nosotros.">
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container-fluid p-0 m-0">
+        <!--  /***** ENCABEZADO *****\ -->
+        <div class="encabezado row">
+            <div class="col-xs-5 col-5 col-md-2 col-lg-2 bg-light text-center">
+                <a href="index.html"><img class id="encabezado--logo" src="Imagenes/Desktop/LOGO_JM_MULTISISTEMAS_V2.png" alt="Logo Jm Multisistemas"></a>
+            </div> 
+            
+            <div class="encabezado--menu col-7 col-sm-8 col-md-10 col-lg-10">
+                <button id="show" type="button" onclick="myFunction()"> <span class="btn-menu"><i class="fa-solid fa-bars fa-2xl"></i></span></button>
+                <nav class="navegacion">
+                    <ul class="col-12 col-md-12 grande mostrar-ocultar" data-animation="bonus">  <!-- id="mostrar-ocultar" -->
+                        <!-- style="display: none;" -->
+                        <li class="list-menu col-10 col-lg-2"><a href="somos.html">Somos JM</a></li>
+                        <li class="list-menu col-10 col-lg-2"><a href="#">Servicios</a>
+                            <!-- <ul class="submenu">
+                                <li><a href="soluciones.html">Soluciones Tecnológicas</a></li>
+                                <li><a href="">Hardware y Software</a></li>
+                                <li><a href="">Servicios Técnicos</a></li>
+                            </ul> -->
+                        </li>
+                        <li class="list-menu col-10 col-lg-2"><a href="#">Tienda</a></li>
+                        <li class="list-menu col-10 col-lg-2"><a href="#">Blog</a></li>
+                        <li class="list-menu col-10 col-lg-2"><a href="contacto.html">Contáctanos </a></li>
+                        
+                        <li class="list-menu col-10 col-lg-2 text-center redes">
+                            <a href="https://api.whatsapp.com/send?phone=573105451850" target="_blank"><i class="fa-brands fa-whatsapp fa-xl fa-bounce"></i></a>
+                            <a href="https://www.instagram.com/jmmultisistemas/" target="_blank"><i class="fa-brands fa-instagram fa-xl fa-shake"></i></a>
+                            <a href="https://www.facebook.com/jmmultisistemascol/" target="_blank"><i class="fa-brands fa-facebook fa-xl fa-bounce"></i></a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+
+        <!-- /***** SERVICIOS DESTACADOS *****\ -->
+        <div id="Servicios" class="ServiciosDestacados row">
+            <div class="CardServicios col-12 col-sm-10 col-md-4 col-lg-4" style="background-image: url(Imagenes/Desktop/SolucionesTecnologicas.png);">
+                <a href="soluciones.html">
+                    <div class="textServicios">Soluciones Tecnológicas</div>
+                </a>
+            </div>
+
+            <div class="CardServicios col-12 col-sm-10 col-md-4 col-lg-4" style="background-image: url(Imagenes/Desktop/Hardware.png);">
+                <a href="#">
+                    <div class="textServicios">Hardware y Software</div>
+                </a>
+            </div>
+
+            <div class="CardServicios col-12 col-sm-10 col-md-4 col-lg-4" style="background-image: url(Imagenes/Desktop/Servicios.png);">
+                <a href="servicios.html">
+                    <div class="textServicios">Servicios Técnicos</div>
+                </a>
+            </div>
+        </div>
+
+
+        <!-- /***** LO QUE HACEMOS *****\ -->
+        <div class="Hacemos row" style="background-image: url(Imagenes/Desktop/Group.svg);">
+            <h2 class="Titulos col-10">Lo que hacemos</h2>
+            <div class="CardServicios degra col-12 col-sm-10 col-md-4 col-lg-5" style="background-image: url(Imagenes/Desktop/JM_Multisistemas.png);">
+                <div class="observacion">
+                    <h3>En JM Multisistemas</h3>
+                    <p>Generamos soluciones en tecnologías de la información de alta calidad integrando productos...</p>
+                </div>
+                <a href="somos.html"> <div class="textServicios">Ver más</div> </a>
+            </div>
+
+            <div class="CardServicios degra col-12 col-sm-10 col-md-4 col-lg-5" style="background-image: url(Imagenes/Desktop/PropuestaValor.png);">
+                <div class="observacion">
+                    <h3>Propuesta de valor</h3>
+                    <p>Se enfoca en ser el mejor respaldo en tecnología, distribución de hardware y software de los principales...</p>
+                </div>
+                <a href="#"> <div class="textServicios">Ver más</div> </a>
+            </div>
+
+            <!-- <hr style="width: 80%; margin: 0 auto; margin-top: 30px; align-items: center; border-color: #7f7fd5;"> -->
+        </div>
+
+
+        <!-- /***** NUESTROS CLIENTES *****\ -->
+        <div class="Nuestrosclietnes position-relative row">
+            <h2 class="Titulos col-10">Nuestros Clientes</h2>
+
+            <div class="textcliente col-12">
+                <div class="text1 col-6"><h3>Comerciales</h3><h3>Gobierno</h3></div>
+                <div class="text2 col-6"><h3>Educación</h3><h3>Salud</h3></div>
+            </div>
+
+            <div class="text-center justify-content-around row d-flex row-cols-12" style="width: 80%;">
+                <img class="imgclienteslogo col-6 col-sm-4 col-md-4 col-lg-4 col-xl-2 p-3 p-sm-3 p-md-4 p-lg-4" src="Imagenes/Desktop/Clientes/Logo_de_la_Universidad_de_Caldas 1.svg" alt="Universidad de Caldas">
+                <img class="imgclienteslogo col-6 col-sm-4 col-md-4 col-lg-4 col-xl-2 p-3 p-sm-3 p-md-4 p-lg-4" src="Imagenes/Desktop/Clientes/logo-vigi-black 1.svg" alt="Universidad Catolica">
+                <img class="imgclienteslogo col-6 col-sm-4 col-md-4 col-lg-4 col-xl-2 p-3 p-sm-3 p-md-4 p-lg-4" src="Imagenes/Desktop/Clientes/Logo_U.T 2.svg" alt="Universidad UTP">
+                <img class="imgclienteslogo col-6 col-sm-4 col-md-4 col-lg-4 col-xl-2 p-3 p-sm-3 p-md-4 p-lg-4" src="Imagenes/Desktop/Clientes/UAM_Logo 1.svg" alt="Universidad UAM">
+                <img class="imgclienteslogo col-6 col-sm-4 col-md-4 col-lg-4 col-xl-2 p-3 p-sm-3 p-md-4 p-lg-4" src="Imagenes/Desktop/Clientes/universidad-manizales-1 1.svg" alt="Universidad de Manizales">
+            </div>
+        </div>
+
+
+        <!-- /***** SLOGAN *****\ -->
+        <div class="slogan deg row align-items-center row-col-12" style="background-image: url(Imagenes/Desktop/Slogan.svg);">
+            <div class="textslogan row">
+                <div class="col-12">
+                    <h1 class="fw-bolder">LA TECNOLOGÍA</h1>
+                </div>
+                
+                <div class="col-12">
+                    <h1 class="fw-bolder">DE TU EMPRESA</h1>
+                </div>
+                
+                <div class="col-12">
+                    <h1 class="fw-bolder">EN NUESTRAS</h1>
+                </div>
+
+                <div class="col-12">
+                    <h1 class="fw-bolder">MANOS</h1>
+                </div>
+
+            </div>
+        </div>
+
+
+        <!-- /***** EQUIPO DE TRABAJO *****\ -->
+        <div class="equipoTrabajo row justify-content-around w-100 m-auto pt-4 pb-5 text-center" style="background-image: url(Imagenes/Desktop/Union.svg);">
+            <h2 class="Titulos col-10">Nuestro equipo de trabajo</h2>
+            
+            <div class="carousel">
+                <div class="carousel__contenedor">
+                    <button aria-label="Anterior" class="carousel__anterior">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+    
+                    <div class="carousel__lista">
+                        <div class="carousel__elemento">
+                            <img class="mb-3" src="Imagenes/Desktop/Equipo/Karen_Giraldo.png" alt="Karen Giraldo">
+                            <b class="d-block">Contadora</b>
+                            <p>Karen Giraldo</p>
+                        </div>
+                        <div class="carousel__elemento">
+                            <img class="mb-3" src="Imagenes/Desktop/Equipo/Oscar_Carmona.png" alt="Oscar Carmona">
+                            <b class="d-block">Jefe de logística y compras</b>
+                            <p>Oscar Carmona</p>
+                        </div>
+                        <div class="carousel__elemento">
+                            <img class="mb-3" src="Imagenes/Desktop/Equipo/Viviana_Charry.png" alt="Viviana Charry">
+                            <b class="d-block">Gerente de cuentas estrategícas</b>
+                            <p>Viviana Charry</p>
+                        </div>
+                        <div class="carousel__elemento">
+                            <img class="mb-3" src="Imagenes/Desktop/Equipo/Duvan_Alvarez.png" alt="Duvan Álvarez">
+                            <b class="d-block">Líder mesa de trabajo</b>
+                            <p>Duvan Álvarez</p>
+                        </div>
+        
+                        <div class="carousel__elemento">
+                            <img class="mb-3" src="Imagenes/Desktop/Equipo/Jonhy_Moreno.png" alt="Jonhy Moreno">
+                            <b class="d-block">Gerente</b>
+                            <p>Jonhy Moreno</p>
+                        </div>
+                        <div class="carousel__elemento">
+                            <img class="mb-3" src="Imagenes/Desktop/Equipo/Diana_Perez.png" alt="Diana Perez">
+                            <b class="d-block">Gerente comercial</b>
+                            <p>Diana Perez</p>
+                        </div>
+                        <div class="carousel__elemento">
+                            <img class="mb-3" src="Imagenes/Desktop/Equipo/Chirley_Quintero.png" alt="Chirley Quintero">
+                            <b class="d-block">Gerente corporativa</b>
+                            <p>Chirley Quintero</p>
+                        </div>
+                        <div class="carousel__elemento">
+                            <img class="mb-3" src="Imagenes/Desktop/Equipo/Alejandro_Buitrago.png" alt="Alejandro Buitrago">
+                            <b class="d-block">Ejecutivo de cuenta</b>
+                            <p>Alejandro Buitrago</p>
+                        </div>
+                        <div class="carousel__elemento">
+                            <img class="mb-3" src="Imagenes/Desktop/Equipo/Angelica_Diaz.png" alt="Angélica Díaz">
+                            <b class="d-block">Ejecutiva de cuenta</b>
+                            <p>Angélica Díaz</p>
+                        </div>
+                        <div class="carousel__elemento">
+                            <img class="mb-3" src="Imagenes/Desktop/Equipo/Ana_Lucia_Rodriguez.png" alt="Ana Lucia Rodriguez">
+                            <b class="d-block">Gerente de cuenta</b>
+                            <p>Ana Lucia Rodriguez</p>
+                        </div>
+                        <div class="carousel__elemento">
+                            <img class="mb-3" src="Imagenes/Desktop/Equipo/Carlos_Burgos.png" alt="Carlos Burgos">
+                            <b class="d-block">Mesa de servicio</b>
+                            <p>Carlos Burgos</p>
+                        </div>
+                    </div>
+    
+                    <button aria-label="Siguiente" class="carousel__siguiente">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+    
+                <div role="tablist" class="carousel__indicadores"></div>
+            </div>
+        </div>
+
+
+        <!-- /***** CASOS DE EXITO *****\ -->
+        <div class="casosExito row text-center justify-content-around">
+            <h2 class="Titulos col-10 mb-4">Casos de exito</h2>
+            <div class="Cardvideo col-12 col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-3 col-xxl-3">
+                <iframe class="video" src="https://www.youtube.com/embed/LrzWrvOjJm8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <h4>Ver más
+            </h4></div>
+
+            <div class="Cardvideo col-12 col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-3 col-xxl-3">
+                <iframe class="video" src="https://www.youtube.com/embed/LrzWrvOjJm8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <h4>Ver más
+            </h4></div>
+
+            <div class="Cardvideo col-12 col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-3 col-xxl-3">
+                <iframe class="video" src="https://www.youtube.com/embed/LrzWrvOjJm8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <h4>Ver más
+            </h4></div>           
+            
+        </div>
+
+
+        <!-- /***** MAPA *****\ -->
+        <div class="Maps row">
+            <iframe class="col-12" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3975.7310254171125!2d-75.72156658501012!3d4.816180341985852!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e387df97f2fb98f%3A0x18ee9256a3284c8e!2sAv.%2030%20de%20Agosto%20%2348-60%2C%20Pereira%2C%20Risaralda!5e0!3m2!1ses!2sco!4v1650605795931!5m2!1ses!2sco" style="border:0;" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+
+        <!-- /***** FOOTER - PIE DE PÁGINA *****\ -->
+        <div class="footer row pt-5 pb-5 align-content-center">
+            <div class="colum c1 col-12 col-xs-12 col-sm-6 col-md-6 col-lg-2 col-xl-2 col-xxl-2">
+                <img class="w-50 pb-4" src="Imagenes/Desktop/LOGO_JM_MULTISISTEMAS_V2.png" alt="Logo JM Multisistemas">
+            </div>
+            <div class="colum c2 col-12 col-xs-12 col-sm-6 col-md-6 col-lg-2 col-xl-2 col-xxl-2">
+                <p>Oficina</p>
+                <p>Pereira, Risaralda</p>
+                <p>Avenida 30 de agosto # 48 - 60</p>
+            </div>
+            <div class="colum c3 col-12 col-xs-12 col-sm-6 col-md-6 col-lg-2 col-xl-2 col-xxl-2">
+                <p>Soluciones Tecnológicas</p>
+                <p>Blog</p>
+                <p>JM Multisistemas</p>
+            </div>
+            <div class="colum c4 col-12 col-xs-12 col-sm-6 col-md-6 col-lg-2 col-xl-2 col-xxl-2">
+                <p>Servicios Tecnicos</p>
+                <p>Propuesta de Valor</p>
+                <p>Tienda</p>
+            </div>
+            <div class="colum c5 col-12 col-xs-12 col-sm-6 col-md-6 col-lg-2 col-xl-2 col-xxl-2">
+                <p>Hardware y software</p>
+                <p>Contáctanos</p>
+                <p>
+                    <a href="https://api.whatsapp.com/send?phone=573105451850" target="_blank"><i class="fa-brands fa-whatsapp fa-xl fa-shake color_white"></i></a>
+                    <a href="https://www.instagram.com/jmmultisistemas/" target="_blank"><i class="fa-brands fa-instagram fa-xl fa-shake color_white"></i></a>
+                    <a href="https://www.facebook.com/jmmultisistemascol/" target="_blank"><i class="fa-brands fa-facebook fa-xl fa-shake color_white"></i></a>
+                </p>
+            </div>
+            <div class="colum c6 col-12 col-xs-12 col-sm-6 col-md-6 col-lg-2 col-xl-2 col-xxl-2">
+                <div class="form-group">
+                  <label>Suscribete</label> <br>
+                  <input class="form-control input" id="email" name="email" type="email" aria-describedby="emailHelpId" placeholder="email"> <br>
+                  <input class="form-control input" id="nombre" name="nombre" type="text" placeholder="nombre"> <br>
+                  <button class="input buttonsend" type="submit">Enviar</button>
+                </div>
+            </div>
+        </div>
+
+        
+            <div class="encabezado--menu pequeño col-8 col-sm-8 col-md-10 col-lg-10">
+                <ul class="col-10 col-md-10 pt-4" id="mostrar-ocultar">
+                    <!-- style="display: none;" -->
+                    <li class="list-menu col-10 col-lg-2"><a href="somos.html">Somos JM</a></li>
+                    <li class="list-menu col-10 col-lg-2"><a href="#">Servicios</a></li>
+                    <li class="list-menu col-10 col-lg-2"><a href="#">Tienda</a></li>
+                    <li class="list-menu col-10 col-lg-2"><a href="#">Blog</a></li>
+                    <li class="list-menu col-10 col-lg-2"><a href="contacto.html">Contáctanos </a></li>
+                    
+                    <li class="list-menu col-10 col-lg-2 text-center redes">
+                        <a href="https://api.whatsapp.com/send?phone=573105451850" target="_blank"><i class="fa-brands fa-whatsapp fa-xl fa-bounce"></i></a>
+                        <a href="https://www.instagram.com/jmmultisistemas/" target="_blank"><i class="fa-brands fa-instagram fa-xl fa-shake"></i></a>
+                        <a href="https://www.facebook.com/jmmultisistemascol/" target="_blank"><i class="fa-brands fa-facebook fa-xl fa-bounce"></i></a>
+                    </li>
+                </ul>
+            </div>
+
+        <a class="ir-arriba" id="toTop" style="opacity: 0.5; visibility: visible; display: inline;"><i class="fa-solid fa-angles-up"></i></a>
+
+    </div>
+
+    <script src="js/glider.min.js"></script>
+    <script src="https://kit.fontawesome.com/1ef609bdfd.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>

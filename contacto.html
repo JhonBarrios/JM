@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JM MULTISISTEMAS</title>
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/glider.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <link type="image/png" href="Imagenes/Logo_32x32.webp" rel="shortcut icon">
+    <meta name="description" content="Compra en línea de manera fácil lo último en tecnología. Celulares, Computadores, Impresoras, Accesorios, Licencias y mucho más. 
+    ¿No sabes cual es el ideal para ti? Asesórate con nosotros.">
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container-fluid p-0 m-0">
+        <!--  /***** ENCABEZADO *****\ -->
+        <div class="encabezado row">
+            <div class="col-xs-5 col-5 col-md-2 col-lg-2 bg-light text-center">
+                <a href="index.html"><img class id="encabezado--logo" src="Imagenes/Desktop/LOGO_JM_MULTISISTEMAS_V2.png" alt="Logo Jm Multisistemas"></a>
+            </div> 
+            
+            <div class="encabezado--menu col-7 col-sm-8 col-md-10 col-lg-10">
+                <button id="show" type="button" onclick="myFunction()"> <span class="btn-menu"><i class="fa-solid fa-bars fa-2xl"></i></span></button>
+                <nav class="navegacion">
+                    <ul class="col-12 col-md-12 grande mostrar-ocultar" >
+                        <li class="list-menu col-10 col-lg-2"><a href="somos.html">Somos JM</a></li>
+                        <li class="list-menu col-10 col-lg-2"><a href="#">Servicios</a>
+                            <!-- <ul class="submenu">
+                                <li><a href="soluciones.html">Soluciones Tecnológicas</a></li>
+                                <li><a href="">Hardware y Software</a></li>
+                                <li><a href="">Servicios Técnicos</a></li>
+                            </ul> -->
+                        </li>
+                        <li class="list-menu col-10 col-lg-2"><a href="#">Tienda</a></li>
+                        <li class="list-menu col-10 col-lg-2"><a href="#">Blog</a></li>
+                        <li class="list-menu col-10 col-lg-2"><a href="contacto.html">Contáctanos </a></li>
+                        
+                        <li class="list-menu col-10 col-lg-2 text-center redes">
+                            <a href="https://api.whatsapp.com/send?phone=573105451850" target="_blank"><i class="fa-brands fa-whatsapp fa-xl fa-bounce"></i></a>
+                            <a href="https://www.instagram.com/jmmultisistemas/" target="_blank"><i class="fa-brands fa-instagram fa-xl fa-shake"></i></a>
+                            <a href="https://www.facebook.com/jmmultisistemascol/" target="_blank"><i class="fa-brands fa-facebook fa-xl fa-bounce"></i></a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+        <!-- /***** BANNER *****\ -->
+        <div class="Banner Bann row align-items-center row-col-12" style="background-image: url(Imagenes/Desktop/Contacto.png);">
+            <div class="Deg col-12">
+                <h1 class="fw-bold TextSomos p-0 title">¿Necesitas más información?</h1>
+                <h3 class="fw-bold TextSomos p-0 sub">Déjanos tus datos y nos comunicaremos contigo</h3>
+            </div>
+        </div>    
+        
+        
+        <!-- /***** FORMULARIO CONTACTANOS *****\ -->
+        <div class="Contactanos row align-content-center justify-content-around" style="background-image: url(Imagenes/Desktop/Puntos.svg);">
+            <div class="col-10 col-sm-8 col-md-6 p-4 formulario">
+                <form class="row g-3">
+
+                    <div class="form-floating pb-3 col-12">
+                        <input type="text" class="form-control" id="floatingInput" placeholder="Nombre" required>
+                        <label id="TextAuto" for="floatingInput">Nombre Completo</label>
+                        <div class="valid-feedback">
+                            Esta bien !
+                        </div>
+                    </div>
+
+                    <div class="form-floating pb-3 col-12">
+                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" required>
+                        <label id="TextAuto" for="floatingInput">Email</label>
+                        <div class="valid-feedback">
+                            Esta bien !
+                        </div>
+                    </div>
+
+                    <div class="form-floating pb-3 col-12">
+                        <input type="number" class="form-control" id="floatingInput" placeholder="Número telefónico" required>
+                        <label id="TextAuto" for="floatingInput">Número telefónico</label>
+                        <div class="valid-feedback">
+                            Esta bien !
+                        </div>
+                    </div>
+
+
+                    <div class="form-floating pb-3">
+                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea" style="height: 100px"></textarea>
+                        <label id="TextAuto" for="floatingTextarea">Mensaje</label>
+                    </div>
+
+                    <div class="col-12 pb-3">
+                      <div class="form-check">
+                        <input class="form-check-input is-invalid" type="checkbox" value="" id="invalidCheck3" aria-describedby="invalidCheck3Feedback" required>
+                        <label class="form-check-label" id="TextAuto" for="invalidCheck3">
+                            Aceptar tratamiento de datos personales 
+                        </label>
+                      </div>
+                    </div>
+
+                    <div class="col-12">
+                      <button class="btn btn-primary" type="submit">Enviar</button>
+                    </div>
+                  </form>
+            </div>
+        </div>
+                
+        <!-- /***** MAPA *****\ -->
+        <div class="Maps row">
+            <iframe class="col-12" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3975.7310254171125!2d-75.72156658501012!3d4.816180341985852!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e387df97f2fb98f%3A0x18ee9256a3284c8e!2sAv.%2030%20de%20Agosto%20%2348-60%2C%20Pereira%2C%20Risaralda!5e0!3m2!1ses!2sco!4v1650605795931!5m2!1ses!2sco" style="border:0;" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <!-- /***** FOOTER - PIE DE PÁGINA *****\ -->
+        <div class="footer row pt-5 pb-5 align-content-center">
+            <div class="colum c1 col-12 col-xs-12 col-sm-6 col-md-6 col-lg-2 col-xl-2 col-xxl-2">
+                <img class="w-50 pb-4" src="Imagenes/Desktop/LOGO_JM_MULTISISTEMAS_V2.png" alt="Logo JM Multisistemas">
+            </div>
+            <div class="colum c2 col-12 col-xs-12 col-sm-6 col-md-6 col-lg-2 col-xl-2 col-xxl-2">
+                <p>Oficina</p>
+                <p>Pereira, Risaralda</p>
+                <p>Avenida 30 de agosto # 48 - 60</p>
+            </div>
+            <div class="colum c3 col-12 col-xs-12 col-sm-6 col-md-6 col-lg-2 col-xl-2 col-xxl-2">
+                <p>Soluciones Tecnológicas</p>
+                <p>Blog</p>
+                <p>JM Multisistemas</p>
+            </div>
+            <div class="colum c4 col-12 col-xs-12 col-sm-6 col-md-6 col-lg-2 col-xl-2 col-xxl-2">
+                <p>Servicios Tecnicos</p>
+                <p>Propuesta de Valor</p>
+                <p>Tienda</p>
+            </div>
+            <div class="colum c5 col-12 col-xs-12 col-sm-6 col-md-6 col-lg-2 col-xl-2 col-xxl-2">
+                <p>Hardware y software</p>
+                <p>Contáctanos</p>
+                <p>
+                    <a href="https://api.whatsapp.com/send?phone=573105451850" target="_blank"><i class="fa-brands fa-whatsapp fa-xl fa-shake color_white"></i></a>
+                    <a href="https://www.instagram.com/jmmultisistemas/" target="_blank"><i class="fa-brands fa-instagram fa-xl fa-shake color_white"></i></a>
+                    <a href="https://www.facebook.com/jmmultisistemascol/" target="_blank"><i class="fa-brands fa-facebook fa-xl fa-shake color_white"></i></a>
+                </p>
+            </div>
+            <div class="colum c6 col-12 col-xs-12 col-sm-6 col-md-6 col-lg-2 col-xl-2 col-xxl-2">
+                <div class="form-group">
+                  <label>Suscribete</label> <br>
+                  <input class="form-control input" id="email" name="email" type="email" aria-describedby="emailHelpId" placeholder="email"> <br>
+                  <input class="form-control input" id="nombre" name="nombre" type="text" placeholder="nombre"> <br>
+                  <button class="input buttonsend" type="submit">Enviar</button>
+                </div>
+            </div>
+        </div>
+
+        
+            <div class="encabezado--menu pequeño col-8 col-sm-8 col-md-10 col-lg-10">
+                <ul class="col-10 col-md-10 pt-4" id="mostrar-ocultar">
+                    <!-- style="display: none;" -->
+                    <li class="list-menu col-10 col-lg-2"><a href="somos.html">Somos JM</a></li>
+                    <li class="list-menu col-10 col-lg-2"><a href="#">Servicios</a></li>
+                    <li class="list-menu col-10 col-lg-2"><a href="#">Tienda</a></li>
+                    <li class="list-menu col-10 col-lg-2"><a href="#">Blog</a></li>
+                    <li class="list-menu col-10 col-lg-2"><a href="contacto.html">Contáctanos </a></li>
+                    
+                    <li class="list-menu col-10 col-lg-2 text-center redes">
+                        <a href="https://api.whatsapp.com/send?phone=573105451850" target="_blank"><i class="fa-brands fa-whatsapp fa-xl fa-bounce"></i></a>
+                        <a href="https://www.instagram.com/jmmultisistemas/" target="_blank"><i class="fa-brands fa-instagram fa-xl fa-shake"></i></a>
+                        <a href="https://www.facebook.com/jmmultisistemascol/" target="_blank"><i class="fa-brands fa-facebook fa-xl fa-bounce"></i></a>
+                    </li>
+                </ul>
+            </div>
+
+        <a class="ir-arriba" id="toTop" style="opacity: 0.5; visibility: visible; display: inline;"><i class="fa-solid fa-angles-up"></i></a>
+
+    </div>
+
+    <script src="js/glider.min.js"></script>
+    <script src="https://kit.fontawesome.com/1ef609bdfd.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>
